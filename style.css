@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li a:visited { text-decoration: none; color:tomato}
+li a:hover {text-decoration: none; color: yellow}
+li a:focus {text-decoration: none; color: pink}
+li a:hover, a:active {text-decoration: none; color: greenyellow}
+
+h1, h2 {
+    margin: 25px;
+}
+
+.header {
+    font-family: "Lucida Console", sans-serif;
+    font-size: 2.5em;
+    color: lightslategray;
+    background-color: mediumaquamarine;
+}
+
+#bar-list {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    list-style: circle;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.list-link {
+    display: inline;
+    color: white;
+    border-right: 1px solid #bbb;
+}
+
+.navbar {
+    background-color: darkslategray;
+}
